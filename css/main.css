@@ -1,0 +1,153 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  color: #313131;
+}
+
+/***** GRID *****/
+header {
+  height: 800px;
+}
+
+.full-width {
+  width: 1400px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.third-width {
+  width: 466.67px;
+  float: left;
+}
+
+#about {
+  height: 1050px;
+}
+
+#portfolio {
+  height: 850px;
+}
+
+#contact {
+  height: 650px;
+}
+
+nav {
+  float: right;
+  padding-top: 35px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  color: #313131;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  padding-left: 35px;
+}
+
+header img {
+  float: left;
+  padding-right: 20px;
+  padding-top: 280px;
+  padding-left: 100px;
+}
+
+h1 {
+  font-family: 'PT Serif', serif;
+  padding-left: 100px;
+  padding-top: 250px;
+  font-size: 48px;
+}
+
+h1 span {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  padding-top: 250px;
+}
+
+h1 strong {
+    color: #81B29A;
+}
+
+h2 {
+  padding-left: 100px;
+  padding-right: 500px;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+#about {
+  text-align: center;
+  font-size: 24px;
+  background-color: #81B29A;
+  color: #ffffff;
+  padding-top: 150px;
+  width: 1400px;
+}
+
+h3 {
+  font-family: 'PT Serif', serif;
+  font-size: 36px;
+}
+
+#about p {
+  padding-left: 400px;
+  padding-right: 400px;
+}
+
+#about img {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+#portfolio {
+  text-align: center;
+  padding-top: 150px;
+  font-size: 24px;
+}
+
+#portfolio img {
+  padding-top: 100px;
+}
+
+#portfolio p {
+  padding-left: 50px;
+  padding-right: 50px;
+  line-height: 24px;
+}
+
+#contact {
+  text-align: center;
+  color: #ffffff;
+  background-color: #81B29A;
+  width: 1400px;
+  padding-top: 150px;
+}
+
+#contact ul {
+  list-style: none;
+  padding-right: 40px;
+
+}
+#contact ul li {
+  display: inline-block;
+}
+
+#contact ul img {
+  padding: 10px;
+}
+
+#contact p {
+  font-size: 24px;
+}
+
+#contact h3 {
+  padding-bottom: 75px;
+}
